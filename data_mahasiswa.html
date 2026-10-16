@@ -1,0 +1,143 @@
+<!--Nama: Ika Septi Ramadhani
+    NIM: 252520115
+    Kelas: TI/B Praktikum 3-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pendaftaran Peserta</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f8ff;
+            margin: 20px;
+        }
+        h1{
+            color:#1a56b0;
+            text-align: center;
+        }
+        form{
+            background: white;
+            border: 1px solid #ddd;
+            padding:10px;
+            margin-button:10px;
+        }
+        input[type="text"]{
+            width:140px;
+        }
+        button{
+            background:#1a56b0;
+            color: white;
+            padding: 5px 12px;
+            cursor: pointer;
+        }
+        table{
+            border-collapse: collapse;
+            width:100%;
+        }
+        th{
+            background:#1a56b0;
+            color: white;
+            padding:6px;
+            text-align: center;
+        }
+        td{
+            border:1px solid #ccd;
+            padding: 6px;
+        }
+        .aktif{
+            background:#e6eefb;
+        }
+    </style>
+    </head>
+
+    <h1>Form Data Mahasiswa</h1>
+
+    <!--Form input mahasiswa-->
+    <form action="#" method="post">
+        NIM:
+        <input type="text" name="nim"><br>
+        Nama:
+        <input type="text" name="nama"><br>
+        Email:
+        <input type="email" name="email"><br>
+        Jenis Kelamin:
+        <input type="radio" name="jk" value="L">Laki-laki
+        <input type="radio" name="jk" value="P">Perempuan<br>
+        Hobi:
+        <input type="checkbox" name="hobi" value="Menggambar">Menggambar
+        <input type="checkbox" name="hobi" value="Bermain Bola">Bermain Bola
+        <input type="checkbox" name="hobi" value="Baca Buku">Baca Buku
+        <input type="checkbox" name="hobi" value="Musik">Musik
+        <input type="checkbox" name="hobi" value="Menyanyi">Menyanyi<br>
+        Prodi:
+        <select name="prodi">
+            <option>Teknologi Informasi</option>
+            <option>Informatika</option>
+            <option>Sistem Informasi</option>
+        </select><br>
+        Alamat:<br>
+        <textarea name="alamat" row="3"></textarea><br>
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <!--Tabel lima mahasiswa-->
+    <h2>Tabel Mahasiswa</h2>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>NIM</th>
+            <th>Nama</th>
+            <th>Prodi</th>
+            <th cosplan="2">Nilai Akademik</th>
+        </tr>
+        <tr class="aktif">
+            <td>1</td>
+            <td>252520001</td>
+            <td>Andi</td>
+            <td>Teknologi Informasi</td>
+            <td>3.65</td>
+        </tr>
+            <td>2</td>
+            <td>252520002</td>
+            <td>Arya</td>
+            <td>Informatika</td>
+            <td>3.80</td>
+        </tr>
+        <tr class="aktif">
+            <td>3</td>
+            <td>252520003</td>
+            <td>Amel</td>
+            <td>Sistem Informasi</td>
+            <td>3.45</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>252520004</td>
+            <td>Rina</td>
+            <td>Teknologi Informasi</td>
+            <td>3.77</td>
+        </tr>
+        <tr class="aktif">
+            <td>5</td>
+            <td>252520005</td>
+            <td>Riski</td>
+            <td>Informatika</td>
+            <td>3.57</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+
+    
+
+
+
+    
